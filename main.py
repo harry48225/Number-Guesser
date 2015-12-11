@@ -31,7 +31,7 @@ while True:
             playagain = raw_input('Want to play again? y/n.')
 
         if playagain.upper() in ['Y', 'YES']:
-            HighLow = [0, 100]
+            HighLow = [1, 100]
             print 'Think of a number between 1 - 100.'
             print
             time.sleep(1)
